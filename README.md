@@ -1,9 +1,20 @@
-The code sets up a web page with a canvas element for the game, a form for adding tasks to a to-do list, and a list to display the tasks.
 
-The JavaScript code defines two classes: Task and Baddy. The Task class represents a task with a name and a deadline. The Baddy class represents an enemy in the game. Each Baddy object is associated with a Task object and has properties such as position, width, height, start time, duration, distance to the tower, and speed.
+# Task Defender
 
-The code sets up event listeners for submitting tasks and clicking on the canvas. When a task is submitted, a new Task object is created and added to the tasks array. A corresponding Baddy object is also created and added to the baddies array. The game is then rendered by calling the renderGame function.
+[DEMO](hdbham.github.io/TowerDefenseTodos/)
 
-The renderGame function clears the canvas, renders the tower, moves the baddies, draws the baddies on the canvas, renders the tasks in the task list, and requests an animation frame to update the game continuously.
+### Game Overview:
 
-Overall, this code represents a simple tower defense game where tasks are represented as enemies (baddies) that move towards a tower, and the player needs to complete the tasks before they reach the tower.
+
+
+In "Task Defender" you step into the shoes of a protaganist (you) who has discovered a magical orb. You are made a wizard by the orb. As a wizard, you are tasked with defending yourself from baddies, these baddies are actually representations of your tasks, and your goal is to transform them from stress-inducing burdens into sources of wellness and DOPAMINE.
+
+Utilize your magical powers, strategic planning, and quick reflexes to transform the stress-monster baddies and ensure the safety of your vibe in this unique and addictive tower defense game!
+
+NOTE: This is currently an minimum viable product. UI and assets WILL be improved. 
+
+Feel free to submit PRs if you want to help especially if you're good with SVGs ;)
+
+
+![Screen Recording 2023-05-19 at 9 54 05 PM](https://github.com/hdbham/TowerDefenseTodos/assets/13264116/98c2219c-3e3f-46f1-b122-ef2c715503d6)
+
