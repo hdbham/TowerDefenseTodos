@@ -1,9 +1,9 @@
-The code sets up a web page with a canvas element for the game, a form for adding tasks to a to-do list, and a list to display the tasks.
+Game Overview:
 
-The JavaScript code defines two classes: Task and Baddy. The Task class represents a task with a name and a deadline. The Baddy class represents an enemy in the game. Each Baddy object is associated with a Task object and has properties such as position, width, height, start time, duration, distance to the tower, and speed.
+In "Task Defender" you step into the shoes of a protaganist (you) who has discovered a magical orb. You are made a wizard by the orb. As a wizard, you are tasked with defending yourself from baddies, these baddies are actually representations of your tasks, and your goal is to transform them from stress-inducing burdens into sources of wellness and DOPAMINE. Utilize your magical powers, strategic planning, and quick reflexes to repel the stress-monster baddies and ensure the safety of your tasks in this unique and addictive tower defense game!
 
-The code sets up event listeners for submitting tasks and clicking on the canvas. When a task is submitted, a new Task object is created and added to the tasks array. A corresponding Baddy object is also created and added to the baddies array. The game is then rendered by calling the renderGame function.
+The game's code revolves around the tower defense gameplay mechanics with a twist, where the stress-monster baddies represent the tasks. The Task class defines the individual tasks, including attributes such as name, deadline, and category. Each task becomes a stress-monster baddy that must be dealt with. As they traverse the arena, your towers bombard them with positive spells, gradually transforming them into sources of wellness and happiness.
 
-The renderGame function clears the canvas, renders the tower, moves the baddies, draws the baddies on the canvas, renders the tasks in the task list, and requests an animation frame to update the game continuously.
+Baddies that have been successfully converted into sources of wellness and happiness are dynamically removed from the list.
 
-Overall, this code represents a simple tower defense game where tasks are represented as enemies (baddies) that move towards a tower, and the player needs to complete the tasks before they reach the tower.
+As the game progresses, waves of stress-monster baddies become more challenging, requiring more efficient spellcasting, and task management. Players earn points and rewards for successfully transforming the baddies, enabling them to unlock new towers, upgrade existing ones, and acquire more powerful spells.
