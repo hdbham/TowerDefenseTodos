@@ -90,8 +90,8 @@ class Tower {
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-canvas.width = 600;
 canvas.height = 100;
+canvas.width = 6 * canvas.height;
 const tower = new Tower();
 
 const tasks = [];

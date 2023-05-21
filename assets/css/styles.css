@@ -1,7 +1,8 @@
 #canvas {
     padding: 20px;
     margin-top: 20px;
-    width: 2000px;
+    height: 100%;
+    width: 600%;
     background-color: rgb(80, 219, 219);
     border: 1px solid black;
   }
