@@ -1,8 +1,8 @@
 #canvas {
     padding: 20px;
     margin-top: 20px;
-    width: 100em;
-    height: 30em;
+    width: 2000px;
+    background-color: rgb(80, 219, 219);
     border: 1px solid black;
   }
   #task-list {
